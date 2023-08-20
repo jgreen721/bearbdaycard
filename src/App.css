@@ -1,0 +1,28 @@
+.section-parent {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  /* justify-content: center; */
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.center {
+  justify-content: center;
+}
+
+.section-content-card {
+  /* display: flex; */
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 2px 3px 2px white, 2px 3px 20px white;
+}
